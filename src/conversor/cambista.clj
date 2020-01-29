@@ -2,7 +2,7 @@
    (:require [clj-http.client :as http-client]
              [cheshire.core :refer [parse-string]]))
 
-(def chave (System/getenv "CHAVE_API"))
+(def chave (System/getenv "API_KEY"))
 (def api-url "https://free.currconv.com/api/v7/convert")
 
 (defn parametrizar-moedas [de para]
