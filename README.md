@@ -1,11 +1,12 @@
-# conversor
+# Currency Converter
 
-Currency Converter.
+A simple currency converter app written in Clojure lang.
 
 ## Usage
 Access https://free.currencyconverterapi.com/ and generate a API KEY.
 
     $ API_KEY=<YOUR KEY> lein run --de=EUR --para=BRL 
+    $ "1 EUR equivale a 4.620152 em BRL"
 
 ## License
 
